@@ -1,0 +1,2981 @@
+/** Styles in this sheet are available in Content Editor 
+*** See SiteStyles.css for General Site Layout/Backgrounds Styles
+*** Do not include positioning and layout styles in this sheet, use SiteStyles css file instead
+**/
+     /* background: rgb(21, 14, 08);
+     background: rgba(21, 14,08, 0.8); */ 
+/* Start General Styles */
+body
+{
+    font-family: 'arial' , Gadget, sans-serif;
+    font-size: 12px;
+    color: #818285;
+}
+
+th
+{
+    font-weight: bold; 
+}
+
+img
+{
+    border: 0px none #ffffff;
+}
+
+h1
+{
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 5px 0px 5px 0px;
+}
+h2
+{
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 5px 0px 5px 0px;
+}
+h3, .h3
+{
+    font-weight: bold;
+    font-size: 15px;
+    color: #484a4c;
+    padding: 6px 0px 6px 0px;
+}
+h4
+{
+    font-weight: bold;
+}
+h5
+{
+    font-weight: bold;
+}
+h6
+{
+    font-weight: bold;
+}
+
+input, select
+{
+    font-size: 10px;
+    
+}
+
+strong, b
+{
+    font-weight: normal;
+}
+i
+{
+    font-style: italic;
+}
+
+a
+{
+    color: #3399ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+hr
+{
+    background-color: #18616a;
+    border: 0px none #FFFFFF;
+    color: #18616a;
+    height: 1px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.small
+{
+    font-size: .9em;
+}
+.bold
+{
+    font-weight: bold;
+}
+.block, .blocklabel
+{
+    display: block;
+}
+
+.StepNumber
+{
+    background-image: url(blue-dot_03.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    height: 30px;
+    width: 30px;
+    margin: 0px 5px 0px 0px;
+    padding: 3px 0px 0px 0px;
+    text-align: center;
+}
+
+/* End General Styles */
+
+/* Start Button Styles */
+.ButtonStyle
+{
+    color: #012e57;
+    font-size: 11px;
+    background-color: #648ABD;
+    border: 1px solid #012e57;
+    padding: 2px 3px 2px 3px;
+    text-decoration: none;
+}
+.AltButtonStyle .ButtonStyle
+{
+    color: #648ABD;
+    font-size: 11px;
+    background-color: #012e57;
+    border: 1px solid #ffffff;
+    text-decoration: none;
+}
+.HighlightButtonStyle .ButtonStyle
+{
+    color: #000000;
+    font-size: 14px;
+    background-color: orange;
+    border: 1px solid #012e57;
+    padding: 6px 6px 6px 6px;
+    text-decoration: none;
+}
+
+.ButtonStyle:hover, .ButtonStyle:active
+{
+    cursor: pointer;
+    color: #ffffff;
+}
+/* End Button Styles */
+
+
+/* Start Status Summary Styles 
+url(http://www.alssports/assets/images/ui-bg_diagonals-thick_18_b81900_40x40.png) repeat scroll 50% 50% #B81900;*/
+.Error, .AspNet-PasswordRecovery-FailurePanel
+{
+    /*
+    color: #ff0000;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #ff0000;
+    background-color: #ffffff;
+    margin: 5px 0px 5px 0px;
+    */
+    background:#c64;
+    border:1px solid #CD0A0A;
+    color:#FFFFFF;
+    padding: 1em 0.7em;
+    margin:1em 0px;
+}
+.AspNet-Login-FailurePanel
+{
+    color: #ff0000;
+    padding: 0px 10px 5px 10px;
+}
+.red
+{
+    color: #ff0000;
+}
+.Success
+{
+    color: #00ff00;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #00ff00;
+    background-color: #ffffff;
+    margin: 5px 0px 5px 0px;
+}
+/* End Status Summary Styles */
+
+/* Start Headings/Titles Styles */
+.TitleText, .TitleText span
+{
+    background: #666666;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5px 5px 5px 5px;
+    margin: 0px 0px 10px 0px;
+}
+.SectionHeading
+{
+    font-size: 12px;
+    font-weight: bold;
+    padding: 3px 0px 3px 0px;
+}
+.asterisk
+{
+    color: #FF0000;
+}
+.optional .asterisk
+{
+    display: none;
+    visibility: hidden;
+}
+/* End Headings/Titles Styles */
+
+/* Start Table Styles */
+.TableStyle, .dataFormTable
+{
+    color: #000;
+    border-width: 0px;
+}
+
+.TableStyle2
+{
+    color: #000;
+	background: #fff
+}
+.FullWidth
+{
+    width: 100%;
+}
+.TableStyle tr th, .TableStyle tr td, .dataFormTable tr th, .dataFormTable tr td
+{
+    /*
+    padding: 5px 5px 5px 5px;
+    border-width: 0px;
+    */
+}
+.HeaderRow, .HeaderRow th
+{
+    background: rgb(21, 14, 08); /* The Fallback */
+	background: rgba(21, 14,08, 0.8);
+    color: #000;
+}
+tr.AlternateRow td
+{
+    background-color: #eeeeee;
+}
+.dataFormTable tr th
+{
+    text-align: right;
+    font-weight: normal;
+}
+.thwidths th
+{
+    width: 115px;
+}
+.dataFormTable select
+{
+    width: 150px;
+}
+.dataFormRow
+{
+    margin: 3px 0px 10px 0px;
+}
+.bordered, .bordered tr th, .bordered tr td, .borderedDiv
+{
+    border: 1px solid #cccccc;
+}
+
+.cartBottomContainer
+{
+    background: rgb(21, 14, 08);
+    background: rgba(21, 14,08, 0.8);
+    padding: 0px 0px 35px 0px;
+}
+
+.totalTable
+{
+    margin: 0px 0px 5px 0px;
+}
+.totalTable tr th, .totalTable tr td
+{
+    border-width: 0px;
+    padding: 3px 5px 3px 5px;
+    border-bottom: 1px solid #cccccc;
+    font-size: 11px;
+}
+.totalTable tr th
+{
+    border-right: 1px solid #cccccc;
+    text-align: right;
+    padding-left: 12px;
+}
+.totalTable tr td
+{
+    color: #fff;
+}
+/* End Table Styles */
+.footerHeadings
+{
+    color: #2B2B2B;
+    font-weight: bold;
+    font-size: 14px;
+}
+#footer_content
+{
+    background: rgb(31, 24, 18); /* The Fallback */
+    background: rgba(31, 24,18, 0.5);
+    font-weight: bold;
+    font-size: 11px;
+}
+#footer_content a
+{
+    color: #006eaa;
+}
+#footer_content a:link, #footer_content a:visited
+{
+    color: #001953;
+}
+#footer_content a:hover, #footer_content a:active
+{
+    color: #648ABD;
+}
+
+
+ul.topnav
+{
+    list-style: none; /*padding: 0 0px;*/
+    padding: 0px 0px;
+    margin:0px 170px 0 0px;
+    float: right;
+    width: 800px;
+    font-size: 1.2em; /*background: url(topnav_bg.gif) repeat-x;*/
+    z-index: 999;
+	color: #fff;
+	
+}
+ul.topnav li
+{
+    float: right;
+    margin: 0; /*padding: 0 10px 0 0;*/
+    position: relative; /*--Declare X and Y axis base for sub navigation--*/
+    z-index: 999;
+}
+/*
+ul.topnav li.blueBorder
+{
+    border-right: solid 1px #82C8E0;
+    padding: 0px 1px 0px 1px;
+}*/
+ul.topnav li a
+{
+    padding: 5px 5px;
+    color: #818285;/*#007EC5;*/
+    display: block;
+    text-decoration: none;
+    float: left;
+    z-index: 999;
+    font-weight: bold;
+    /*font-size: 12px;*/
+    /*text-transform: uppercase;*/
+}
+ul.topnav li a:hover, ul.topnav li a.active
+{
+    /*background: url(topnav_hover.gif) no-repeat center top;*/ /*color: #1C9DC8;*/
+    z-index: 999;
+}
+ul.topnav li span
+{
+    /*--Drop down trigger styles--*/ /*width: 17px;*/ /*height: 35px;*/
+    float: left; /*background: url(subnav_btn.gif) no-repeat center top;*/
+    padding: 5px 1px;
+    width: 2px;
+}
+ul.topnav li span.subhover
+{
+    background-position: center bottom;
+    cursor: pointer;
+}
+/*--Hover effect for trigger--*/
+ul.topnav li ul.subnav
+{
+    list-style: none;
+    position: absolute; /*--Important - Keeps subnav from affecting main navigation flow--*/
+    left: 0;
+    top: 26px;
+    margin: 0;
+    padding: 0;
+    display: none;
+    float: left;
+    width: 961px; /*border: 1px solid #111;*/
+	background: rgba(31,24,18, 0.8); /*Background of Nav!*/
+    z-index: 999;
+    border:0px solid #fff;
+    /*background-color: #1C9DC8;*/
+}
+ul.topnav li ul.subnav2
+{
+    list-style: none;
+    position: absolute; /*--Important - Keeps subnav from affecting main navigation flow--*/
+    left: 0;
+    margin: 0;
+    padding: 0;
+    display: none;
+    float: left;
+    width: 961px; /*border: 1px solid #111;*/
+    z-index: 999;
+}
+ul.topnav li ul.subnav3
+{
+    list-style: none;
+    position: absolute; /*--Important - Keeps subnav from affecting main navigation flow--*/
+    left: 0;
+    margin: 0;
+    padding: 0;
+    display: none;
+    float: left;
+    width: 961px; /*border: 1px solid #111;*/
+    z-index: 999;
+}
+/*
+ul.topnav li#nav_li_0 ul.subnav {
+    left:-120px;
+}
+ul.topnav li#nav_li_1 ul.subnav {
+    left:-100px;
+}
+*/
+
+ul.topnav li ul.subnav li.regular
+{
+    margin: 0;
+    padding: 0; /*clear: both;*/
+    width: 961px;
+    z-index: 999;
+    float: left;
+}
+html ul.topnav li ul.subnav li a 
+{
+    float: left;
+    width: 100px;
+    background-color: rgba(31,24,18);
+    padding: 2px 0px;
+    color: #fff; /* Subnavlinkcolors*/
+    z-index: 999;
+    border: none 0px;
+    font-size: 12px;
+    text-transform: none;
+}
+html ul.topnav li ul.subnav li a.titleLink /*SubNavTitle*/
+{
+    color:#fff;   /*SubNavTitleColor*/
+	text-decoration:underline;
+    width:200px;
+}
+html ul.topnav li ul.subnav li a:hover, html ul.topnav li ul.subnav li a.titleLink:hover, ul.topnav li a.subhover
+{
+    background-color:rgba(225,225,225, 0.2); /* roll over color*/
+    color:#fff;
+}
+
+
+
+/*
+#nav_li_0 ul.subnav
+{
+    left: -1px;
+}
+#nav_li_6 ul.subnav
+{
+    left: -50px;
+}
+#nav_li_7 ul.subnav
+{
+    left: -126px;
+}
+*/
+html ul.topnav li ul.subnav li ul.subSubnav
+{
+    position: relative;
+     background-color: #1C9DC8;
+}
+html ul.topnav li ul.subnav li ul.subSubnav li
+{
+    position: relative;
+}
+.topCorner
+{
+   
+    height: 14px;
+    width:490px;
+}
+.bottomCorner
+{
+    
+    height: 14px;
+    width:490px;
+}
+#nav_li_7 ul
+{
+	left:-81px;
+}
+#nav_li_6 ul
+{
+	left:-179px;
+}
+#nav_li_5 ul
+{
+	left:-273px;
+}
+#nav_li_4 ul
+{
+	left:-355px;
+}
+#nav_li_3 ul
+{
+	left:-448px;
+}
+#nav_li_2 ul
+{
+    left:-533px;
+} 
+#nav_li_1 ul
+{
+    left:-625px;
+} 
+#nav_li_0 ul
+{
+    left:-699px;
+}    
+/** Styles in this sheet will NOT be available in Content Editor 
+*** See ContentStyles.css for Content Editor styles 
+*** Do not include font/text related styles in this sheet, use the ContentStyles css file instead
+**/
+   
+/* Start General Styles */
+html
+{
+background: url('woodwall2.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+}
+body
+{
+    text-align: center; /* centering site 1/3 */
+    margin: 0; /*DO NOT include font information here, see ContentStyles.css*/
+}
+.asterisk
+{
+    color: #FF0000;
+}
+.form_background
+{
+    background-color: #f5f5f5;
+    color: #666666;
+    padding: 0px;
+}
+.form_background_spaced
+{
+    background-color: #f5f5f5;
+    color: #666666;
+    padding: 5px 10px 5px 10px;
+    margin: 5px 0px 5px 0px;
+}
+.left_pad
+{
+    padding-left: 5px;
+}
+/* Pricing classes used everywhere but product page (department pages, search page, etc) */
+.MSRPPriceA
+{
+    font-size: 10px;
+    font-weight: bold;
+    color: #989898;
+    display: block;
+}
+.ListPricewSaleA
+{
+    font-size: 9px;
+    font-weight: normal;
+    color: #5C5C5C;
+    display: block;
+    text-decoration: line-through;
+}
+.ListPricewoSaleA
+{
+    font-size: 10px;
+    font-weight: bold;
+    color: #989898;
+    display: block;
+}
+.SalePriceA
+{
+    font-size: 10px;
+    font-weight: bold;
+    color: #5C5C5C;
+    display: block;
+}
+
+.MSRPPriceB
+{
+    font-size: 10px;
+    font-weight: bold;
+    color: #989898;
+    display: block;
+}
+.ListPricewSaleB
+{
+    font-size: 9px;
+    font-weight: normal;
+    color: #5C5C5C;
+    display: block;
+    text-decoration: line-through;
+}
+.ListPricewoSaleB
+{
+    font-size: 10px;
+    font-weight: bold;
+    color: #989898;
+    display: block;
+}
+.SalePriceB
+{
+    font-size: 10px;
+    font-weight: bold;
+    color: #5C5C5C;
+    display: block;
+}
+
+.MSRPPriceC
+{
+    font-size: 10px;
+    font-weight: bold;
+    color: #989898;
+    display: inline;
+}
+.ListPricewSaleC
+{
+    font-size: 9px;
+    font-weight: normal;
+    color: #5C5C5C;
+    display: inline;
+    text-decoration: line-through;
+}
+.ListPricewoSaleC
+{
+    font-size: 10px;
+    font-weight: bold;
+    color: #989898;
+    display: inline;
+}
+.SalePriceC
+{
+    font-size: 10px;
+    font-weight: bold;
+    color: #5C5C5C;
+    display: inline;
+}
+
+/* Product */
+.MSRPPrice
+{
+    font-size: 12px;
+    font-weight: bold;
+    color: #989898;
+    text-align: right;
+    display: block;
+}
+.ListPricewSale
+{
+    font-size: 10px;
+    font-weight: normal;
+    color: #5C5C5C;
+    text-align: right;
+    text-decoration: line-through;
+    display: block;
+}
+.ListPricewoSale
+{
+    font-size: 12px;
+    font-weight: bold;
+    color: #989898;
+    text-align: right;
+    display: block;
+}
+.SalePrice
+{
+    font-size: 12px;
+    font-weight: bold;
+    color: #5C5C5C;
+    text-align: right;
+    display: block;
+}
+
+/* Start Table Styles */
+.TableStyle, .dataFormTable
+{
+    color: #fff;
+    border-width: 0px;
+	background: rgb(21, 14, 08);
+     background: rgba(21, 14,08, 0.8);
+}
+.FullWidth
+{
+    width: 100%;
+}
+.TableStyle tr th, .TableStyle tr td, .dataFormTable tr th, .dataFormTable tr td
+{
+    /*
+    padding: 3px;
+    border-width: 0px;
+    */
+}
+tr.AlternateRow td
+{
+    background-color: #eeeeee;
+}
+.dataFormTable tr th
+{
+    text-align: right;
+    font-weight: normal;
+}
+.thwidths th
+{
+    width: 115px;
+}
+.dataFormTable select
+{
+    width: 150px;
+}
+.dataFormRow
+{
+    margin: 3px 0px 3px 0px;
+}
+.bordered, .borderedDiv
+{
+    border: 1px solid #cccccc;
+}
+
+.cartBottomContainer
+{
+    background: rgb(21, 14, 08);
+     background: rgba(21, 14,08, 0.8);
+    padding: 0px 0px 35px 0px;
+}
+
+.totalTable
+{
+    margin: 0px 0px 5px 0px;
+}
+.totalTable tr th, .totalTable tr td
+{
+    border-width: 0px;
+    padding: 3px 5px 3px 5px;
+    border-bottom: 1px solid #cccccc;
+    font-size: 11px;
+}
+.totalTable tr th
+{
+    border-right: 1px solid #cccccc;
+    text-align: right;
+    padding-left: 12px;
+}
+.totalTable tr td
+{
+    color: #fff;
+}
+/* End Table Styles */
+
+.smaller_half_padded
+{
+    width: 305px;
+    padding: 10px 10px 10px 10px;
+}
+.left
+{
+    float: left;
+}
+.right
+{
+    float: right;
+}
+.clear
+{
+    clear: both;
+}
+.smaller_half
+{
+    width: 330px;
+}
+.half
+{
+    width: 460px;
+}
+.third
+{
+    width: 250px;
+}
+.left_half
+{
+    width: 475px;
+    float: left;
+}
+.right_half
+{
+    width: 475px;
+    float: right;
+}
+.left_quarter
+{
+    width: 200px;
+    float: left;
+}
+.right_quarter
+{
+    width: 200px;
+    float: right;
+}
+.shipmethdd select
+{
+    /*	width:275px;*/
+    width:250px;
+}
+.paypal img
+{
+    cursor: pointer;
+}
+.hiddenDiv
+{
+    display: none;
+    visibility: hidden;
+}
+/* End General Styles */
+
+/* Start General Layout Styles */
+#wrapper
+{
+    margin: 0 auto; /* centering site 2/3 */
+    text-align: left; /* centering site 3/3 */
+    width: 960px; /* Overall site width */
+    
+}
+#big_container
+{
+    float: left;
+    width: 940px;
+	color: white;
+    margin-left: 0px; /* Pushes this column over by same width as what will be first col to appear before this col */
+    margin-right: 0px; /*background-color:Gray; Background color of main content area center */ /*padding:5px;  causes column to stretch */
+    background: url(border.png);
+	padding: 10px;
+}	
+#big_container1
+{
+    float: left;
+    width: 940px;
+	color: white;
+    margin-left: 0px; /* Pushes this column over by same width as what will be first col to appear before this col */
+    margin-right: 0px; /*background-color:Gray; Background color of main content area center */ /*padding:5px;  causes column to stretch */
+}
+#contentcontainer
+{
+width: 940px;
+background: white;
+color: #747578;
+
+}
+#contentcontainer2
+{
+width: 940px;
+background: white;
+color: #747578;
+
+}
+#singlecontainer
+{
+width: 940px;
+margin: 0px -300px 0px 0px;}
+
+#contentcontainer td
+{
+background: white;
+width: 900px /* The Fallback */
+
+
+}
+#insidecontentcontainer
+{
+padding: 10px 50px;
+}
+#insidecontentcontainer2
+{
+padding: 10px 50px;
+}
+#insidecontentcontainer2 img
+{ 
+border: 30px;
+border-color: #e8e2d9;
+}
+#main_container
+{
+    float: left;
+    width: 700px;
+    margin-left: 260px; /* Pushes this column over by same width as what will be first col to appear before this col */
+    margin-right: 0px; /*background-color:Gray; Background color of main content area center */ /*padding:5px;  causes column to stretch */
+	background: #fff
+   
+}
+* html #main_container
+{
+    display: inline;
+}
+#main_content, #menu_content, #extra_content
+{
+    padding: 10px 0px 10px 0px;
+	
+}
+
+#main_content
+{
+padding: 0px 0px 10px 0px;
+}
+#main_content ul li
+{
+    list-style-type: disc;
+    margin: 1px 0px 1px 20px;
+}
+
+#main_contenttablestyle
+{
+background: #fff;
+}
+#menu_container
+{
+    float: left;
+    width: 267px;
+    margin-left: -957px; /* Makes this column show before first block even though first block is first in code */ /*padding:5px;  causes column to stretch */
+}
+
+
+#extra_container
+{
+    float: left;
+    width: 60px;
+    background-color: #fff;
+    display: none;
+}
+
+
+/* Start Product Page Styles */
+.ProductName
+{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.optionAttrLabel {font-weight: bold; line-height:25px;}
+.ImageSelector_ImageNotFound
+{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 2px solid #18618A;
+    color: #18618A;
+    font-weight: bold;
+    margin-right: 5px;
+    padding: 3px 10px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 11px;
+}
+img.attributeCellStyle
+{
+    border: 1px solid #000000;
+}
+img.attributeCellSelectedStyle,img.attributeCellStyle
+{
+    cursor: pointer;
+}
+.colorSelector_ImageNotFound
+{
+    border: 1px solid #000000;
+    padding: 0px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 0px;
+    height: 30px;
+    width: 30px;
+}
+.attributeCellSelectedStyle
+{
+    border: 2px solid #000;
+    color: #000000;
+    cursor: pointer;
+}
+img.ImageAttributeSelector_ValueDisabled {border: 1px solid #cccccc;
+    color: #cccccc;
+    cursor: default;
+    /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+
+  /* IE 5-7 */
+  filter: alpha(opacity=50);
+
+  /* Netscape */
+  -moz-opacity: 0.5;
+
+  /* Safari 1.x */
+  -khtml-opacity: 0.5;
+
+  /* Good browsers */
+  opacity: 0.5;
+
+    
+    }
+div.ImageAttributeSelector_ValueDisabled 
+{
+    border: 1px solid #cccccc;
+    color: #cccccc;
+    cursor: default;
+}
+#PPImageAttrSelector table
+{
+    margin: 10px 0px 0px 0px;
+}
+/* End Product Page Styles */
+
+/* End General Layout Styles */
+
+/* Start Header classes */
+#header
+{
+  background-image: url('header_03.png');
+  height: 176px;
+  width: 960px;
+}
+#header_content
+{
+    padding: 0px;
+}
+#Logo
+{
+	width: 300px;
+    float: left;
+	margin-left: 10px;
+	height: 135px;
+	background: -moz-linear-gradient(left, rgba(255,255,255,1) 48%, rgba(255,255,255,0.38) 80%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(48%,rgba(255,255,255,1)), color-stop(80%,rgba(255,255,255,0.38)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left, rgba(255,255,255,1) 48%,rgba(255,255,255,0.38) 80%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left, rgba(255,255,255,1) 48%,rgba(255,255,255,0.38) 80%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left, rgba(255,255,255,1) 48%,rgba(255,255,255,0.38) 80%,rgba(255,255,255,0) 100%); /* IE10+ */
+background: linear-gradient(left, rgba(255,255,255,1) 48%,rgba(255,255,255,0.38) 80%,rgba(255,255,255,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
+	
+}
+#Tagline
+{
+    clear: both;
+}
+#Welcome
+{
+    float: right;
+    /*width: 300px;*/
+    width:240px;
+    text-align: right;
+    padding: 0px 0 0;
+}
+.cartClosed
+{
+    background-image:url(shopping-cart_03.png);
+    background-repeat:no-repeat;
+    display:block;
+    height:54px;
+    background-position:180px 15px;
+}
+.cartOpened
+{
+    background-image:url(shopping-cart_03.png);
+    background-repeat:no-repeat;
+    display:block;
+    height:62px;
+    background-position:2px -68px;
+}
+#top_anon_template
+{
+    float:right;
+    width:265px;
+    text-align:right;
+    color:#8b8a8a;
+    font-size:12px;
+    margin-right:15px;
+	margin-top: 8px;
+    margin-bottom:0px;
+}
+#top_anon_template a
+{
+    color:#8b8a8a;
+    font-size:12px;
+    text-decoration:none;
+    font-weight:bold;
+}
+#top_anon_template a:hover,
+#top_anon_template a:active
+{
+    color:#82C8E0;
+    font-size:12px;
+    text-decoration:none;
+    font-weight:bold;
+}
+#shopping_cart_heading
+{
+    float:left;
+    padding-left:70px;
+    padding-top:0px;
+    padding-bottom:10px;
+    font-size:12px;
+    color:#8b8a8a;
+    text-align:left;
+	margin-top:-10px;
+}
+#shopping_cart_heading h2
+{
+    color:#8b8a8a;
+    font-size:14px;
+    font-weight:bold;    
+}
+a.cart_hotspot
+{
+    display:block;
+    height:60px;
+    width:100px;
+    float:right;
+    cursor:pointer;
+}
+#follow_me_bottom
+{
+    background: #fff;
+    background-repeat:no-repeat;
+    display:block;
+    height:0px;
+    background-position:0px -297px;
+}
+/* End Header classes */
+hr.black
+{
+    background-color:#000;
+border:0 none #fff;
+color:#000;
+height:1px;
+margin:0;
+padding:0;
+}
+/* Start Footer classes */
+#footer
+{
+    clear: both; /*padding:10px;  Causes footer to jut out on right hand side*/
+    color: #000;
+	margin: 0 -120px;
+	width: 115%;
+}
+
+#footer_content
+{
+padding: 5px 50px;
+margin: 0 -10px;
+width: 101%;
+background: rgb(255, 255, 255); /* The Fallback */
+background: rgba(255, 255,255, 0.60);
+
+}
+
+#footer_content a
+{
+color: #18618A;
+
+}
+
+#footer_content2 a
+{
+color: #18618A;
+
+}
+#footer2
+{
+    clear: both; /*padding:10px;  Causes footer to jut out on right hand side*/
+    color: #000;
+	margin: 0 0px;
+	width: 100%;
+}
+
+#footer_content2
+{
+padding: 5px 50px;
+margin: 0 -10px;
+width: 94%;
+background: rgb(255, 255, 255); /* The Fallback */
+background: rgba(255, 255,255, 0.60);
+
+}
+
+
+/* End Footer classes */
+
+/* Start LeftNav */
+.LeftNav
+{
+}
+.LeftNav .TitleText
+{
+    color: White;
+}
+
+.AspNet-TreeView li
+{
+    margin: 0px 0px 0px 6px;
+}
+.AspNet-TreeView li.AspNet-TreeView-ParentSelected
+{
+    /*margin:0px 0px 0px 20px;*/
+}
+
+.AspNet-TreeView a, .AspNet-TreeView-Selected ul li a
+{
+    color: #648ABD;
+    text-decoration: none;
+}
+
+.AspNet-TreeView a:hover, .AspNet-TreeView-Selected a
+{
+    color: White;
+}
+/* End LeftNav*/
+
+
+/* Start Login/Password Recovery Styles */
+#pswReminderDiv .PRbutton
+{
+    margin: 10px 0px 5px 0px;
+}
+.AspNet-Login-InstructionPanel, .AspNet-PasswordRecovery-UserName-InstructionPanel, .AspNet-PasswordRecovery-Question-InstructionPanel, .AspNet-PasswordRecovery
+{
+    padding: 10px 0px 10px 0px;
+}
+.PRInstructionPanel
+{
+    padding: 10px 0px 10px 0px;
+}
+.AspNet-Login-UserPanel label, .AspNet-Login-PasswordPanel label, .AspNet-PasswordRecovery-UserName-UserPanel label, .AspNet-PasswordRecovery-Question-UserPanel label, .AspNet-PasswordRecovery-QuestionPanel label, .AspNet-PasswordRecovery-AnswerPanel label
+{
+    width: 8em;
+    float: left;
+    text-align: right;
+    margin-right: 0.5em;
+}
+.prLabel
+{
+    padding-right: 0.5em;
+}
+.prInput
+{
+}
+.AspNet-Login-UserPanel input, .AspNet-Login-PasswordPanel input, .AspNet-PasswordRecovery-UserName-UserPanel input, .AspNet-PasswordRecovery-Question-UserPanel input, .AspNet-PasswordRecovery-QuestionPanel input, .AspNet-PasswordRecovery-AnswerPanel input
+{
+    width: 10em;
+}
+.AspNet-Login-RememberMePanel
+{
+    padding: 5px 25px 5px 25px;
+}
+.AspNet-Login-PasswordRecoveryPanel
+{
+    padding: 5px 0px 5px 0px;
+}
+.AspNet-Login-UserPanel, .AspNet-Login-PasswordPanel, .AspNet-Login-RememberMePanel
+{
+    margin: 2px 0px 8px 0px;
+}
+.AspNet-Login-UserPanel span, .AspNet-Login-PasswordPanel span
+{
+    font-size: 14px;
+    font-weight: bold;
+}
+/* End Login/Password Recovery Styles */
+
+/* Start SitePath and DataPager Styles */
+#SitePathContainer
+{
+    padding: 10px;
+    font-weight: normal;
+    font-size: 12px;
+}
+#SitePathContainer1
+{
+    padding: 10px;
+	width: 120%;
+    font-weight: normal;
+    font-size: 12px;
+	background: rgba(129, 130, 133, 0.1);
+	margin-left: -12px;
+}
+.SitePath
+{
+    text-decoration: none;
+    color: #b4b4b4;
+    font-weight: normal;
+}
+.SitePath:hover, .SitePath:active
+{
+    color: #009bff;
+    font-weight: normal;
+}
+.SitePathSelected
+{
+    color: #b4b4b4;
+    font-weight: bold;
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+#DataPagerContainer
+{
+    text-align: right;
+    padding: 6px 0px 6px 0px;
+}
+.Pager
+{
+    padding: 0px 4px 0px 0px;
+    border: 0px none #ffffff;
+    border-right: 1px solid #000000;
+}
+/* End SitePath Styles */
+
+
+
+/* Start FNS Classes */
+.RefineGroup
+{
+    margin: 0px 10px 10px 10px;
+}
+.RefineHeading
+{
+    display: block;
+    padding: 6px 0px 3px 0px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #18618a;
+}
+.RefineLinks
+{
+    padding: 1px 4px 1px 4px;
+}
+.RefineLinks a
+{
+    /* display:block;*/
+    padding: 0px 3px 0px 3px;
+}
+.RefineLinks a:link, .RefineLinks a:visited
+{
+    /*display: block;*/
+    text-decoration: none;
+    font-size: 11px;
+    color: #1c71a0;
+    font-weight: bold;
+}
+.RefineLinks a:hover, .RefineLinks a:active
+{
+    /*display: block;*/
+    text-decoration: none;
+    font-size: 11px;
+    color: #82C8E0;
+    font-weight: bold;
+}
+.RefineLinks select
+{
+    color: #333333;
+    font-size: 11px;
+    border: 1px solid #CCCCCC;
+    font-weight: normal;
+}
+/* End FNS Classes */
+
+/* Start Address Control Classes AND Checkout Classes */
+
+.SmallerFieldSection, .HalfFieldSection
+{
+    margin: 0px 4px 0px 0px;
+    float: left;
+}
+.disabledField
+{
+    color: #999999;
+    background-color: #cecece;
+}
+/* End Address Control Classes AND Checkout Classes */
+/* Mini Login (found on checkout.aspx) */
+#mini-login
+{
+    width: 300px;
+    float: left;
+    margin-left: 10px;
+    border: 4px solid #21AAE7;
+    position: absolute;
+    left: 180px;
+    z-index: 9999;
+}
+.mini-login-inner
+{
+    background: #ffffff;
+    padding: 5px;
+    border: 3px solid #CEEBFF;
+}
+.mini-login-close
+{
+    text-align: right;
+    margin-bottom: 5px;
+}
+.mini-login-close span
+{
+    font-size: 11px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#mini-login td, #mini-login input
+{
+    font-size: 12px;
+}
+/* End Mini Login */
+
+/* Start Create Account */
+.password-checklist-div
+{
+    font-size: 11px !important;
+    color: #000000;
+    margin: 5px 0px;
+}
+.password-checklist-div ul
+{
+    margin-left: 25px;
+}
+.password-checklist-div li
+{
+    font-size: 11px !important;
+    color: #000000;
+    list-style-type: disc;
+}
+.create-acct-div
+{
+    text-align: left;
+}
+.create-acct-div input
+{
+    margin: 0px auto;
+}
+/* End Create Account */
+/* Start Tooltip Classes*/
+.tooltip_content
+{
+    display: none; /* required */
+    position: absolute; /* required */
+    padding: 10px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+/* End Tooltip Classes*/
+
+/* Start Calendar CSS */
+.ajax__calendar_container
+{
+    z-index: 9000;
+}
+.ajax__calendar_body table tr td
+{
+    padding: 0px;
+}
+/* End Calendar CSS */
+
+
+/** Hacks Start **/
+
+/* Start Mac IE5 filter \*/
+
+/* see this site for details on equal height stuff below 
+http://www.positioniseverything.net/articles/onetruelayout/equalheight */
+#main_container, #menu_container, #extra_container
+{
+    /*     padding-bottom: 32767px !important;     margin-bottom: -32767px !important;     */
+}
+/* End Mac IE5 filter */
+
+#wrapper
+{
+    /*     overflow: hidden;    */ /* This hides the excess padding in non-IE browsers */
+}
+/* we need this for IE 5.01 - otherwise the wrapper does not expand to the
+necessary height (unless fixed, this problem becomes even more acute 
+weirdness as the method is enhanced
+NB. possibly only IE 5.01 needs to get this float value - otherwise 5.5 sometimes      
+(I saw it happen many moons ago) makes the width of wrapper too small      
+the float: none with the comment is ignored by 5.01,     
+5.5 and above see it and carry on about their business     
+It's probably fine to just remove it, but it's left here      
+just in case that many moons ago problem rears its head again 
+
+Normally a Holly-style hack height: 1% would suffice but that causes      
+IE 5.01 to completely collapse the wrapper - instead we float it 
+
+*/
+#wrapper
+{
+    
+    float: left; 
+    float: /**/ none;
+}
+/* easy clearing */
+#wrapper:after
+{
+    content: '[DO NOT LEAVE IT IS NOT REAL]';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+#wrapper
+{
+    display: inline-block;
+}
+/*\*/
+#wrapper
+{
+    display: block;
+}
+/* end easy clearing */
+
+/* Safari needs this - otherwise the ghost overflow, though painted 
+correctly obscures links and form elements that by rights should be above it.
+An unintended side-effect is that it cause such elements to vanish in IE 5.01
+and 5.5, hence the child selector hack */
+* > #footer, * > form, * > #notes, * > .output
+{/*
+    position: relative;
+    z-index: 1000;
+    */
+}
+
+/* Hacks End */
+#LowPrice
+{
+    /*padding-left: 146px;*/
+    /*width: 250px;*/
+    float: right;
+	margin-right:290px;
+	margin-top: -70px;
+	color: brown;
+    /*padding-top: 40px;*/
+    padding-top:20px;
+}
+#CartBGLoggedIn
+{
+    background: url(shopping-cart_03.png) no-repeat right center;
+    height: 81px;
+    width: 300px;
+    text-align: left;
+    float: right;
+    font-family: 'Lucida Sans Unicode' , 'Lucida Grande' , sans-serif;
+}
+#CartBGNotLoggedIn
+{
+    background: url(shopping-cart_03.png) no-repeat right center;
+    height: 81px;
+    width: 144px;
+    text-align: left;
+    float: right;
+    font-family: 'Lucida Sans Unicode' , 'Lucida Grande' , sans-serif;
+}
+.CartFont
+{
+    font-size: 11px;
+}
+.White
+{
+    background-color: #fff;
+    border-color: #fff;
+    color: #fff;
+}
+.WhiteText
+{
+    color: #fff;
+}
+.Ocean
+{
+    background-color: #82c8e0;
+    border-color: #82c8e0;
+    color: #82c8e0;
+}
+.CenterText
+{
+    text-align: center;
+}
+#menuLightGray
+{
+    width: 247px;
+    padding: 10px;
+	
+}
+#menuDarkGray
+{
+    width: 150px;
+	margin: 0px;
+}
+#popularSearches
+{
+    background-color: #e9e9e9;
+    width: 207px;
+    padding: 15px 20px;
+    text-align: center;
+}
+.searchPanel
+{
+    background-color: #e2e2e2;
+    padding: 5px;
+    width: 197px;
+}
+
+#topsearch
+{
+border: 2px rgba(31, 24,18, 0.4) solid;
+background-color: rgba(31, 24,18, 0.3);
+padding: 1px;
+float: left;
+margin: 30px 0px 0px -600px;
+
+}
+#social
+{
+float: right;
+margin: -50px 10px 0px -40px;
+}
+#topsearch img
+{
+opacity:0.2;
+filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
+.richTextbox2
+{
+    border: 2px;
+	background-color: rgba(24,97,138, 0.1);
+    height: 17px;
+    width: 300px;
+    position: relative;
+    font-weight: bold;
+    color: #fff;
+    font-size: 13px;
+	padding: 3px;
+	vertical-align: middle;
+}
+.richTextbox
+{
+    border: 0px none;
+    background-color: rgba(51,44,38, 0.5);
+    height: 20px;
+    width: 170px;
+    position: relative;
+    font-weight: bold;
+    color: #fff;
+    font-size: 13px;
+}
+.EmailOptInDiv
+{
+   
+    padding: 10px 15px;
+}
+.refinementParent
+{
+    background: rgb(255, 255, 255); /*Fallback for IE*/
+    background: rgba(255, 255, 255, 0.99);; /*Filter Navigation Search Background Color-- Blake*/
+	width: 150px;
+	padding: 10px;
+	border-radius: 10px 10px;
+}
+.lightGrayText
+{
+    color: #e2e2e2;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 0 0 0 14px;
+}
+.oneThird
+{
+    width: 33%;
+    padding: 10px 0px;
+    float: left;
+}
+.oneQuarter
+{
+    width: 25%;
+    padding: 10px 0px;
+    float: left;
+}
+.oneHalf
+{
+    width: 50%;
+    padding: 10px 0px;
+    float: left;
+	
+}
+
+.SeoLinks
+{
+    font-family: verdana,arial,sans-serif;
+    padding: 0px 10px;
+    font-size: 10px;
+}
+.SeoLinks a
+{
+    color: #ccc;
+    font-weight: normal;
+}
+.SeoLinks a:hover
+{
+    color: #82c8e0;
+    font-weight: bold;
+}
+.comment
+{
+    width: 410px;
+    padding: 10px;
+    background-color: #fff;
+}
+.productProductName
+{
+    font-weight: bold;
+    font-size: 18px;
+    color: #000;
+}
+hr.gray
+{
+    color: #e2e2e2;
+    height: 1px;
+    background-color: #e2e2e2;
+    border: 0px none;
+}
+.PPListPricewoSale
+{
+    color: #666666;
+    font-size: 24px;
+    font-weight: bold;
+    display:block;
+}
+.PPSalePrice
+{
+    color: #ff0000;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display:block;
+}
+
+.PPListPricewSale
+{
+    font-size: 13px;
+    color: #666;
+    /*font-weight: bold;*/
+    display:block;
+    text-decoration:line-through;
+}
+
+#reviewSubmitForm label
+{
+    clear: left;
+    color: #888888;
+    display: block;
+    float: left;
+    margin-bottom: 0.5em;
+    padding-right: 10px;
+    text-align: right;
+    width: 100px;
+}
+#reviewSubmitForm input, #reviewSubmitForm textarea
+{
+    border: 2px solid #18618A;
+    margin-bottom: 0.6em;
+    padding: 5px;
+    width: 200px;
+    background:url(http://www.alssports.com/assets/images/inputshadow.gif) no-repeat scroll left top #FFFFFF;
+}
+.fancyInput, skupicker input, skupicket select
+{
+    border: 2px solid #18618A;
+    margin-bottom: 0.6em;
+    padding: 5px;
+    background: #FFFFFF;
+}
+#checbox input
+{
+    width: 13px;
+}
+/*
+blockquote
+{
+    display: block;
+    padding: 0 60px;
+    width: 350px;
+}
+blockquote:before, blockquote:after
+{
+    color: #69c;
+    display: block;
+    font-size: 700%;
+    width: 50px;
+}
+blockquote:before
+{
+    content: open-quote;
+    height: 0;
+    margin-left: -0.55em;
+}
+blockquote:after
+{
+    content: close-quote;
+    height: 50px;
+    margin-top: -70px;
+    margin-left: 360px;
+}
+*/
+.badPW
+{
+    clear:both;
+    display:block;
+}
+.subDepartment
+{
+    font-size:14px;
+    font-weight:bold;
+    padding:0px 3px;
+}
+.deptName
+{
+    font-size:21px;
+    font-weight:bold;
+    font-family:arial, Sans-Serif;
+    padding:0px;
+    margin-bottom:27px;   
+}
+.subCatName
+{
+    font-family:arial, Sans-Serif;
+    font-weight:bold;
+    color:#1f1f1f;
+    font-size:13px;
+}
+#main_content ul.subCatList li.subCatListItem
+{
+  list-style-type:none;
+  margin:0px;   
+}
+#main_content ul.subCatList li.subCatListItem a
+{
+  color:#818080;
+  font-size:13px;
+  font-weight:normal;
+  font-family:arial, Sans-Serif; 
+}
+.subCat
+{
+ margin-bottom:41px;   
+}
+.deptGrayText
+{
+    color:#adabab;
+    font-size:11px;
+    
+}
+.Pointer, #ctl00_MainContent_FormView1_swatchImageList_ctl00_groupPlaceholder *
+{
+cursor: pointer;
+}
+.Error ul li
+{
+    list-style-type:disc;
+    margin:1px 0 1px 20px;
+}
+.SearchSalePriceA
+{
+    display:block;
+    font-size:12px;
+    font-weight:bold;
+    color:Red;
+}
+.SearchListPricewoSaleA
+{
+    display:block;
+    color:Black;
+    font-size:11px;
+    font-weight:bold;
+}
+.SearchListPricewSaleA
+{
+    display:block;
+    color:Black;
+    font-size:10px;
+    font-weight:normal;
+    text-decoration:line-through;
+}
+.productRelatedProdsParent
+{
+    background-color:#CDCCCC;
+    display:block;
+    clear:both;
+    padding:10px;
+    width:97%;
+}
+.productRelatedProdsParent a, .productRelatedProdsParent a:hover,
+.productRelatedProdsParent a:visited
+{
+    color:#1c9dc8;
+}
+.relProdsHeading
+{
+    font-weight:bold;
+    font-size:14px;
+    color:#898888;
+    padding:0px 0px 5px 20px;
+    float:left;
+}
+.smlImgPager, .smlImgPager img
+{
+    width:15px;
+    height:15px;
+    position:relative;
+    top:3px;
+
+}
+
+/******Follow me Basket addtl styles**********/
+/*
+#Float-Overlay
+{
+    filter: alpha(opacity=65);
+    -moz-opacity: .65;
+    opacity: .65;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: #ffffff;
+    z-index: 9999; 
+    
+}
+#Float-Container
+{
+    width: 100%;
+    height: 100%;
+}
+#Float-Continue
+{
+    float: left;
+}
+#Float-Continue img:hover
+{
+    cursor: pointer;
+}
+#FollowMe_container
+{
+    border: 5px solid #e7e3e7;
+    padding: 20px 10px;
+    margin: auto;
+    position: absolute;
+    width: 420px;
+}
+#FollowMe_container .btn-float-continue
+{
+}
+#FollowMe_container .btn-float-checkout
+{
+}
+.FollowMe_item
+{
+}
+td.FollowMe_item_col
+{
+    color: #82C8E0;
+    font-size: 12px;
+}
+td.FollowMe_item_col img
+{
+    width: 50px;
+    display: block;
+}
+.FollowMe_item_col a
+{
+    color: #82C8E0;
+    font-size: 12px;
+}
+.FollowMe_item_col .price-each
+{
+    width: 60px;
+}
+#FollowMe_container .TitleText
+{
+    color: #966640;
+}
+#FollowMe_container .floating-scrolling-div
+{
+    overflow-y: auto;
+    overflow-x: visible;
+    height: 350px;
+    padding: 0px 2px 0px 2px;
+}
+.floating-cart-tbl
+{
+    border-color: #007dce;
+}
+.floating-cart-tbl th
+{
+    background: #007dce;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 5px;
+    text-align: center;
+}
+.floating-cart-tbl td
+{
+    padding: 3px;
+}
+.floater-bottom
+{
+    padding-top: 15px;
+}
+.floater-bottom .btn-float-continue
+{
+    float: left;
+    cursor: pointer;
+    width: 163px;
+    height: 63px;
+    background: url(https://www.alssports.com/App_Themes/Default/images/blue_buttons/btn_continue_shopping.gif) no-repeat;
+}
+.floater-bottom .btn-float-checkout
+{
+    float: right;
+}
+*/
+#style_number
+{
+    font-size:13px;
+    font-weight:normal;
+    margin-bottom:5px;
+    float:left;
+    padding-top:3px;
+}
+#prod_price_warranty
+{
+    float:right;
+}
+#addToCartDiv
+{
+    padding-top:10px;
+}
+a.Product_Add_To_Wish
+{
+    color:#297b98;
+    font-weight:normal;
+    cursor:pointer;
+}
+a.Product_Add_To_Wish:hover,
+a.Product_Add_To_Wish:active
+{
+    text-decoration:underline;
+    color:#297b98;
+    font-weight:normal;
+    cursor:pointer;
+}
+#divAvailability,
+#spanNumAvail
+{
+    font-weight:bold;
+    font-size:12px;
+    color:#006cb4;
+}
+.addthis_toolbox a
+{
+    color: #444433 !important;
+}
+a#writeReviewsLink,
+a#readReviewsLink
+{
+    color:#8B8A8A;
+}
+a#writeReviewsLink:hover,
+a#writeReviewsLink:active,
+a#readReviewsLink:active,
+a#readReviewsLink:hover
+{
+    color:#82C8E0;
+}
+.ui-tabs .ui-tabs-nav ul li,
+.ui-tabs .ui-tabs-nav li
+{
+    
+    list-style-type:none !important;
+    margin:0 0.2em -1px 0 !important;
+}
+ul.ui-tabs-nav.ui-helper-reset.ui-helper-clearfix.ui-widget-header.ui-corner-all
+{
+    background:none !important;
+    border:0px none !important;
+    padding-left:0px !important;
+}
+div#tabs
+{
+    background:0px none !important;
+    border: 0px none !important;
+    float:left !important;
+    width:604px !important;
+}
+div#tabs-1,
+div#tabs-2,
+div#tabs-3,
+div#tabs-4
+{
+    border:solid 2px #18618A;
+    overflow-x:auto;
+
+}
+
+
+
+
+ul.ui-tabs-nav.ui-helper-reset.ui-helper-clearfix.ui-widget-header.ui-corner-all .ui-state-default a, 
+ul.ui-tabs-nav.ui-helper-reset.ui-helper-clearfix.ui-widget-header.ui-corner-all .ui-state-default a:link, 
+ul.ui-tabs-nav.ui-helper-reset.ui-helper-clearfix.ui-widget-header.ui-corner-all .ui-state-default a:visited 
+{
+    color:#000;
+}
+ul.ui-tabs-nav.ui-helper-reset.ui-helper-clearfix.ui-widget-header.ui-corner-all .ui-state-active a, 
+ul.ui-tabs-nav.ui-helper-reset.ui-helper-clearfix.ui-widget-header.ui-corner-all .ui-state-active a:link, 
+ul.ui-tabs-nav.ui-helper-reset.ui-helper-clearfix.ui-widget-header.ui-corner-all .ui-state-active a:visited
+{
+    color:#1C94C4;
+}
+ul.ui-tabs-nav.ui-helper-reset.ui-helper-clearfix.ui-widget-header.ui-corner-all .ui-state-default, 
+ul.ui-tabs-nav.ui-helper-reset.ui-helper-clearfix.ui-widget-header.ui-corner-all .ui-widget-content .ui-state-default 
+{
+    background: url("https://www.alssports.com/App_Themes/Default/images/tab_bg.gif") repeat-x scroll 0 -12px #B2B2B2;
+}
+ul.ui-tabs-nav.ui-helper-reset.ui-helper-clearfix.ui-widget-header.ui-corner-all li.ui-state-active
+{
+    border:1px solid #999999;
+    background:#fff;   
+}
+ul.ui-tabs-nav.ui-helper-reset.ui-helper-clearfix.ui-widget-header.ui-corner-all .ui-state-hover
+{
+    border:1px solid #CCCCCC;
+}
+#celbros-x-promos
+{
+    float:right;
+    width:190px;
+}
+#otherViews
+{
+    color:#000;
+    font-size:11px;
+    font-weight:bold;
+	
+}
+/*Blake's CSS Additions*/
+#productholder
+{
+width: 900px;
+}
+#textcontainer
+{
+width: 951px;
+padding: 5px 5px 5px 5px;
+background: rgb(21, 14, 08); /* The Fallback */
+background: rgba(21, 14,08, 0.8);
+
+
+}
+#textcontainer2
+{
+width: 951px;
+padding: 5px 5px 5px 5px;
+background: rgb(21, 14, 08); /* The Fallback */
+background: rgba(21, 14,08, 0.8);
+
+}
+#textcontainer3
+{
+width: 951px;
+padding: 5px 5px 5px 5px;
+background: rgb(21, 14, 08); /* The Fallback */
+background: rgba(21, 14,08, 0.8);
+
+}
+#textcontainer2 img
+{
+opacity:0.4;
+filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+#textcontainer2 img:hover
+{
+opacity:1.0;
+filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+#hrwhite
+{
+background-color: #fff;
+    border-color: #fff;
+    color: #fff;
+}
+#brandholder
+{
+margin: 5px 0px 0px 0px;
+}
+#navcol 
+{
+font-size: 11px;
+
+}
+#brandcol1
+{
+width: 100px;
+float: left;
+margin: 4px -6px 0px 10px;
+font-size: 10px;
+}
+#navcol1
+{
+width: 170px;
+float: left;
+margin: 4px -6px 0px 10px;
+}
+#navcol2
+{
+width: 250px;
+float: right;
+}
+#navcol3
+{
+width: 460px;
+float: right;
+}
+
+#navcol a
+{
+color: #fff
+}
+
+/* Test CSS Code for Slider */
+/* PUT IN YOUR SLIDER ID AND SIZE TO MAKE LOAD BEAUTIFULLY
+   ================================================== */
+#featuredholder
+{
+width: 940px;
+height: 300px;
+background: url(border.png);
+padding: 10px;
+}
+#featured { 
+	width: 940px;
+	height: 300px;
+	background: #000 url('orbit/loading.gif') no-repeat center center;
+	overflow: hidden; }
+#featured>img,  
+#featured>div,
+#featured>a { display: none; }
+
+/* CONTAINER
+   ================================================== */
+
+div.orbit-wrapper {
+    width: 1px;
+    height: 1px;
+    position: relative; }
+
+div.orbit {
+    width: 1px;
+    height: 1px;
+    position: relative;
+    overflow: hidden }
+
+div.orbit>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none; }
+
+div.orbit>a {
+    border: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 0; 
+    display: none; }
+
+.orbit>div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+/* Note: If your slider only uses content or anchors, you're going to want to put the width and height declarations on the ".orbit>div" and "div.orbit>a" tags in addition to just the .orbit-wrapper */
+
+
+/* TIMER
+   ================================================== */
+
+div.timer {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    opacity: .6;
+    cursor: pointer;
+    z-index: 1001; }
+
+span.rotator {
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: -20px;
+    background: url(orbit/rotator-black.png) no-repeat;
+    z-index: 3; }
+
+span.mask {
+    display: block;
+    width: 20px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    overflow: hidden; }
+
+span.rotator.move {
+    left: 0 }
+
+span.mask.move {
+    width: 40px;
+    left: 0;
+    background: url(orbit/timer-black.png) repeat 0 0; }
+
+span.pause {
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(orbit/pause-black.png) no-repeat;
+    z-index: 4;
+    opacity: 0; }
+
+span.pause.active {
+    background: url(orbit/pause-black.png) no-repeat 0 -40px }
+
+div.timer:hover span.pause,
+span.pause.active {
+    opacity: 1 }
+
+
+/* CAPTIONS
+   ================================================== */
+
+.orbit-caption {
+    display: none;
+    font-family: "arialNeue", "arial-Neue", arial, arial, sans-serif; }
+
+.orbit-wrapper .orbit-caption {
+    background: #000;
+    background: rgba(0,0,0,.6);
+    z-index: 1000;
+    color: #fff;
+	text-align: center;
+	padding: 7px 0;
+    font-size: 13px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%; }
+
+
+/* DIRECTIONAL NAV
+   ================================================== */
+
+div.slider-nav {
+    display: block }
+
+div.slider-nav span {
+    width: 78px;
+    height: 100px;
+    text-indent: -9999px;
+    position: absolute;
+    z-index: 1000;
+    top: 50%;
+    margin-top: -50px;
+    cursor: pointer; }
+
+div.slider-nav span.right {
+    background: url(orbit/right-arrow.png);
+    right: 0; }
+
+div.slider-nav span.left {
+    background: url(orbit/left-arrow.png);
+    left: 0; }
+
+/* BULLET NAV
+   ================================================== */
+
+.orbit-bullets {
+    position: absolute;
+    z-index: 1000;
+    list-style: none;
+    bottom: -40px;
+    left: 50%;
+	margin-left: -50px;
+    padding: 0; }
+
+.orbit-bullets li {
+    float: left;
+    margin-left: 5px;
+    cursor: pointer;
+    color: #999;
+    text-indent: -9999px;
+    background: url(orbit/bullets.jpg) no-repeat 4px 0;
+    width: 13px;
+    height: 12px;
+    overflow: hidden; }
+
+.orbit-bullets li.active {
+    color: #222;
+    background-position: -8px 0; }
+    
+.orbit-bullets li.has-thumb {
+    background: none;
+    width: 100px;
+    height: 75px; }
+
+.orbit-bullets li.active.has-thumb {
+    background-position: 0 0;
+    border-top: 2px solid #000; }
+	
+.container {
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
+    margin: -300px 0 0 -470px; }
+    
+.content { background: url(dummy-images/coffee.jpg); }
+.content h1 {
+	font-size: 40px; 
+	text-transform: uppercase; 
+	font-weight: bold; 
+	text-align: center;
+	margin-top: 180px;
+	color: #222;
+	line-height: 50px;  }
+.content h3 {
+	text-align: center; 
+	font-size: 22px; 
+	color: #222; }
+#searchbrand
+{
+padding: 5px;
+margin: 4px 0px 0px 0px;
+background: rgba(225,225,225,0.2);
+border: 1px;
+height: 20px;
+width: 73%;
+border-color: fff;
+}
+#searchbrand2
+{
+padding: 3px;
+margin: 4px 0px 0px 0px;
+background: rgba(225,225,225,0.2);
+border: 1px;
+height: 20px;
+width: 75%;
+border-color: fff;
+}
+#productright
+{
+width: 350px;
+height: 500px;
+float: right;
+margin-right: -40px;
+margin-top: -70px;
+background: rgba(175, 182, 186, 0.2);
+color: #18618a;
+padding: 30px;
+
+
+}
+#productleft
+{
+width: 500px;
+height: 500px;
+float: left;
+margin-left: -35px;
+}
+#productleft img
+{
+width: 500px;
+height: 500px;
+}
+#styleholder
+{
+margin-top: -15px;
+margin-left: 5px;
+color: #818285;
+
+}
+#productright img
+{
+float: right;
+border: 0px #18618a solid;
+margin-top: 50px;
+margin-right: -25px;
+}
+#productright td 
+{
+background: rgba(20, 82, 116, 0.8);
+color: white;
+border: 1px white solid;
+height: 35px;
+width: 30%;
+padding: 10px;
+text-transform:uppercase;
+vertical-align: center;
+text-align:center;
+}
+#productright table
+{
+margin-top: 10px;
+margin-left: -27px;
+width:405px;
+}
+#productright em
+{
+text-decoration:underline;
+font-size:10px;
+padding: -50px;
+
+}
+#hrhold
+{
+width: 365px;
+}
+
+#hrhold hr
+{
+background-color: #18618a;
+    border: 0px none #FFFFFF;
+    color: #18618a;
+    height: 1px;
+    margin-left: -15px;
+	margin-top: 0px;
+    padding: 0px; 
+}
+#botleft
+{
+float: left;
+width: 470px;
+height: 680px;
+background: rgba(21, 14,08, 0.8);
+color: white;
+}
+
+#botleft img
+{
+vertical-align:bottom;
+}
+#botright
+{
+float: right;
+width: 470px;
+height: 680px;
+background: white;
+
+}
+#botrightinside
+{
+padding: 5px;
+color: #818285;
+}
+#botleftinside
+{
+padding: 10px;
+}
+
+#bot
+{
+width: 960px;
+margin: auto;
+
+}
+#spacer
+{
+width:100%;
+height: 20px;
+float: right;
+}
+#alt
+{
+width: 350px;
+height: 80px;
+background-color: white;
+border: 2px #818285 solid;
+margin-top: 10px;
+margin-bottom: 10px;
+border-radius: 3px;
+}
+#alt img
+{
+margin-top: 12px;
+margin-left: 42px;
+float: left;
+border: 1px black solid;
+}
+#botlink
+{
+margin-top: 30px;
+margin-left: 35px;
+color: #818285;
+
+
+}
+#mainback
+{
+width: 700px;
+padding:10px;
+background: url(border.png);
+float: right;
+}
+
+#navrightback
+{
+width: 192px;
+padding:10px;
+background: url(border.png);
+float: left;
+margin-top: -1975px;
+margin-left: 142px;
+}
+
+#navwhiteback
+{
+width: 192px;
+background-color: white;
+}
+#mainwhite
+{
+background-color: white;
+}
+#mainwhite2
+{
+padding:10px;
+}
+#brandcont
+{
+
+    width: 940px;
+	color: white;
+   margin: auto;
+    background: url(border.png);
+	padding: 10px;
+	z-index: 2;
+	}
+	
+#depleft
+{
+float: left;
+width: 470px;
+height: 700%;
+background: rgba(21, 14,08, 0.8);
+color: white;
+}
+
+#depright
+{
+float: right;
+width: 470px;
+height: 700%;
+background: white;
+}
+#imgtop
+{
+float: left;
+width: 230px;
+height: 329px;
+margin-top: -374px;
+margin-left:650px;
+background: rgba(25, 17, 12, 0.85);
+text-align: left;
+padding: 10px;
+
+z-index: 1;
+}
+
+#imgtopdept
+{
+float: left;
+width: 230px;
+height: 333px;
+margin-top: -378px;
+margin-left:650px;
+background: rgba(255, 255,255, 0.85);
+text-align: left;
+padding: 10px;
+
+z-index: 1;
+}
+a.brandpagelink 
+{
+color:white;
+font-family:Arial,Helvetica,sans-serif;
+}
+a.brandpageheader 
+{
+color: #818285;
+text-transform:uppercase;
+font-family:Arial,Helvetica,sans-serif;
+}
+a.deptpagelink 
+{
+color: #666666;
+font-family:Arial,Helvetica,sans-serif;
+font-weight: bold;
+}
+a.deptpageheader 
+{
+color: #19110c ;
+text-transform:uppercase;
+font-family:"Arial",Helvetica,sans-serif;
+font-weight: bold;
+}
+#arc
+{
+width: 940px;
+height:388px;
+background: url('arc.jpg');
+color: black;
+}
+#footdept
+{
+width: 940px;
+height:388px;
+background: url('footwear.jpg');
+color: black;
+}
+#appdept
+{
+width: 940px;
+height:388px;
+background: url('apparel.jpg');
+color: black;
+}
+#athdept
+{
+width: 940px;
+height:388px;
+background: url('athletics.jpg');
+color: black;
+}
+#campdept
+{
+width: 940px;
+height:388px;
+background: url('camping.jpg');
+color: black;
+}
+#climbdept
+{
+width: 940px;
+height:388px;
+background: url('climbing.jpg');
+color: black;
+}
+#cycdept
+{
+width: 940px;
+height:388px;
+background: url('cycling.jpg');
+color: black;
+}
+#fishdept
+{
+width: 940px;
+height:388px;
+background: url('fishing.jpg');
+color: black;
+}
+#huntdept
+{
+width: 940px;
+height:388px;
+background: url('hunting.jpg');
+color: black;
+}
+#waterdept
+{
+width: 940px;
+height:388px;
+background: url('water.jpg');
+color: black;
+}
+#golfdept
+{
+width: 940px;
+height:388px;
+background: url('golf.jpg');
+color: black;
+}
+#winterdept
+{
+width: 940px;
+height:388px;
+background: url('winter.jpg');
+color: black;
+}
+#cleardept
+{
+width: 940px;
+height:388px;
+background: url('clearance.jpg');
+color: black;
+}
+#brandsdept
+{
+width: 940px;
+height:388px;
+background: url('brands.jpg');
+color: black;
+}
+#botleftinside a
+{
+color: #238fcb;
+}
+#botleftinside a: hover 
+{
+color: #fff;
+}
+#botrightinside a
+{
+color: #18618a;
+}
+a.deptypesheader 
+{
+color: #818285;
+text-decoration:underline;
+text-transform:capitalize;
+
+}
+
+#problemform
+{
+color: #fff;
+border: #18618a;
+background: rgba(25, 17, 12, 0.85);
+width: 500px;
+height: 360px;
+margin-left: -10px;
+
+
+}
+#problemsteps
+{
+margin-right: -10px;
+margin-top: -360px;
+background: rgba(175, 182, 186, 0.2);
+width: 300px;
+height: 320px;
+float: right;
+padding: 20px;
+border: 1px solid rgba(175, 182, 186, 0.9);
+}
+
+#problemtext
+{
+border: solid 1px rgba(175, 182, 186, 0.2);
+padding: 5px;
+background: rgba(175, 182, 186, 0.2);
+width: 850px;
+margin-left: -10px;
+}
+
+#instore
+{
+ background-image: url(instoreback.jpg);
+width:940px;
+height: 810px;
+margin-top: -8px;
+margin-left:-50px;
+
+}
+#instoreimgholder
+{
+margin-top: -520px;
+margin-left: 540px;
+}
+
+#freeshipimage
+{
+margin-top: -720px;
+margin-left: 440px;
+}
+#instoreimgholder2
+{
+margin-top: -70px;
+}
+#freehold2
+{
+width: 350px;
+margin-top: -440px;
+
+}
+#instorebrown1
+{
+width: 440px; 
+height: 120px;
+margin-top: 10px;
+margin-left: -50px;
+background: rgba(21, 14,08, 0.8);
+padding: 30px;
+color: white;
+}
+#instorebrown2
+{
+width: 370px; 
+height: 120px;
+margin-top: -180px;
+margin-right: -50px;
+background: rgba(21, 14,08, 0.8);
+padding: 30px;
+color: white;
+float: right;
+}
+#freeship
+{
+background-image: url(shipback.jpg);
+width:940px;
+height: 850px;
+margin-top: -8px;
+margin-left:-50px;
+
+}
+
+
+.step
+{
+color: #5d5a5c;
+font-weight: bold;
+}
+
+hr.step 
+{
+    background-color: #818285;
+    border: 0px none #FFFFFF;
+    color: #818285;
+    height: 1px;
+    margin: 0px;
+    padding: 0px;
+}

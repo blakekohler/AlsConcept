@@ -1,0 +1,66 @@
+ <html>
+ <head>
+<link rel="stylesheet" type="text/css" href="test.css" /></head>
+ <div id="big_container">
+
+                
+<div id="contentcontainer"><div id="main_content"><img src="footwear.jpg"/>
+<div id="insidecontentcontainer">
+                    
+
+
+
+    
+
+    
+    
+
+  
+
+
+
+    <div style="width: 100%; float: left;">
+
+        <div style="float: left; width:100%;">
+
+           
+
+            <table class="FullWidth" cellspacing="0" border="0" id="MainContent_FormView2" style="border-collapse:collapse;">
+
+	<tr>
+
+		<td colspan="2">
+
+               <span id="MainContent_FormView2_ImageExistsControl5"></span>
+
+                    <table cellspacing="0" cellpadding="5" border="0" width="90%">      <tbody>          <tr align="left">        <td align="left">     <table width="300" border="0">                  <tr>                    <td><h4>Men's Footwear</h4>                      <table>                        <tbody>                          <tr></tr>                          <tr>                            <td><ul>                              <li><a href="http://www.alssports.com/Mens-Running-Footwear/Search">Running</a></li>                              <li><a href="http://www.alssports.com/Mens-Hiking-Footwear/Search">Hiking</a></li>                              <li><a href="http://www.alssports.com/Mens-Snow-Boots-Footwear/Search">Snow Boots</a></li>                              <li><a href="http://www.alssports.com/Mens-Climbing-Footwear/Search">Climbing</a></li>                              <li><a href="http://www.alssports.com/Mens-Trail-Running-Footwear/Search">Trail Running</a></li>                              <li><a href="http://www.alssports.com/Mens-Walking-Footwear/Search">Walking</a></li>                              <li><a href="http://www.alssports.com/Mens-Cross-Training-Footwear/Search">Cross Training</a></li>                            </ul></td>                            <td><img alt="SubCat1Name" src="http://www.alssports.com/Assets/images/DeptLandingThumbs/LandingThumbExample1.gif" /></td>                          </tr>                        </tbody>                      </table>                      <h4>&nbsp;</h4>                      <h4>Men's Sports Shoes</h4>                      <table>                        <tbody>                          <tr></tr>                          <tr>                            <td><ul>                              <li><a href="http://www.alssports.com/Mens-Football-Footwear/Search">Football</a></li>                              <li><a href="http://www.alssports.com/Mens-Soccer-Footwear/Search">Soccer</a></li>                              <li><a href="http://www.alssports.com/Mens-Basketball-Footwear/Search">Basketball</a></li>                              <li><a href="http://www.alssports.com/Mens-Baseball-Footwear/Search">Baseball</a></li>                              <li><a href="http://www.alssports.com/Mens-Tennis-Footwear/Search">Tennis</a></li>                              <li><a href="http://www.alssports.com/Mens-Wrestling-Footwear/Search">Wrestling</a></li>                            </ul></td>                            <td><img alt="SubCat1Name" src="http://www.alssports.com/Assets/images/DeptLandingThumbs/LandingThumbExample2.gif" /></td>                          </tr>                        </tbody>                      </table></td>                    <td><h4>Women's Footwear</h4>                      <table>                        <tbody>                          <tr></tr>                          <tr>                            <td><ul>                              <li><a href="http://www.alssports.com/Womens-Running-Footwear/Search">Running</a></li>                              <li><a href="http://www.alssports.com/Womens-Hiking-Footwear/Search">Hiking</a></li>                              <li><a href="http://www.alssports.com/Womens-Snow-Boots-Footwear/Search">Snow Boots</a></li>                              <li><a href="http://www.alssports.com/Womens-Climbing-Footwear/Search">Climbing</a></li>                              <li><a href="http://www.alssports.com/Womens-Trail-Running-Footwear/Search">Trail Running</a></li>                              <li><a href="http://www.alssports.com/Womens-Walking-Footwear/Search">Walking</a></li>                              <li><a href="http://www.alssports.com/Womens-Cross-Training-Footwear/Search">Cross Training</a></li>                            </ul></td>                            <td><img alt="SubCat1Name" src="http://www.alssports.com/Assets/images/DeptLandingThumbs/LandingThumbExample3.gif" /></td>                          </tr>                        </tbody>                      </table>                      <h4>&nbsp;</h4>                      <h4>Women's Sports Shoes</h4>                      <table>                        <tbody>                          <tr></tr>                          <tr>                            <td><ul>                              <li><a href="http://www.alssports.com/Womens-Football-Footwear/Search">Football</a></li>                              <li><a href="http://www.alssports.com/Womens-Soccer-Footwear/Search">Soccer</a></li>                              <li><a href="http://www.alssports.com/Basketball-Footwear/Search">Basketball</a></li>                              <li><a href="http://www.alssports.com/Womens-Baseball-Footwear/Search">Baseball</a></li>                              <li><a href="http://www.alssports.com/womens-Tennis-Running-Footwear/Search">Tennis</a></li>                            </ul></td>                            <td><img alt="SubCat1Name" src="http://www.alssports.com/Assets/images/DeptLandingThumbs/LandingThumbExample4.gif" /></td>                          </tr>                        </tbody>                      </table></td>                  </tr>                </table>                <p>&nbsp;</p>                <div>                  <h4><span id="center"><a href="http://www.alssports.com">AlsSports.com</a> is dedicated to providing you with the greatest com</span>fort   for your feet! No matter what activity you are involved in wether it is <a href="http://www.alssports.com/Basketball-Footwear/Search">Basketball</a>, <a href="http://www.alssports.com/Football-Footwear/Search">Football</a>, <a href="http://www.alssports.com/Climbing-Footwear/Search">Climbing</a>, <a href="http://www.alssports.com/Casual-Footwear/Search">Causal</a> or <a href="http://www.alssports.com/Running-Footwear/Search">Running</a>, <a href="http://www.alssports.com">AlsSports.com</a> will   have something to help you stay active and competitive in comfort and   style. We have a huge selection from <a id="ctl00$testSelector$ctl00$ctl07$ctl01$ShortList$ctl00$ctl03$ctl00$btn" href="http://www.alssports.com/Footwear/Nike/4236/Search">Nike</a>, <a href="http://www.alssports.com/Adidas-Footwear/Search">Adidas</a>, <a id="ctl00$testSelector$ctl00$ctl07$ctl01$ShortList$ctl00$ctl15$ctl00$btn" href="http://www.alssports.com/Footwear/Chaco/4099/Search">Chaco</a> , <a id="ctl00$testSelector$ctl00$ctl07$ctl01$ShortList$ctl00$ctl09$ctl00$btn" href="http://www.alssports.com/Footwear/Merrell/4144/Search">Merrell</a> , <a id="ctl00$testSelector$ctl00$ctl07$ctl01$ShortList$ctl00$ctl33$ctl00$btn" href="http://www.alssports.com/Footwear/Saucony/4064/Search">Saucony</a> , <a id="ctl00$testSelector$ctl00$ctl07$ctl01$ShortList$ctl00$ctl06$ctl00$btn" href="http://www.alssports.com/Footwear/DC/4185/Search">DC, </a><a id="ctl00$testSelector$ctl00$ctl07$ctl01$ShortList$ctl00$ctl12$ctl00$btn" href="http://www.alssports.com/Footwear/Asolo/4095/Search">Asolo</a>, <a id="ctl00$testSelector$ctl00$ctl07$ctl01$ShortList$ctl00$ctl18$ctl00$btn" href="http://www.alssports.com/Footwear/The-North-Face/4076/Search">The North Face</a>, <a id="ctl00$testSelector$ctl00$ctl07$ctl01$ShortList$ctl00$ctl24$ctl00$btn" href="http://www.alssports.com/Footwear/Asics/4233/Search">Asics, </a><a id="ctl00$testSelector$ctl00$ctl07$ctl01$ShortList$ctl00$ctl30$ctl00$btn" href="http://www.alssports.com/Footwear/Vasque/4196/Search"> Vasque, </a><a id="ctl00$testSelector$ctl00$ctl07$ctl01$ShortList$ctl00$ctl36$ctl00$btn" href="http://www.alssports.com/Footwear/Reef/4270/Search"> Reef </a> <a id="ctl00$testSelector$ctl00$ctl07$ctl01$ShortList$ctl00$ctl21$ctl00$btn" href="http://www.alssports.com/Footwear/Dankso/4226/Search">Dankso, </a><a id="ctl00$testSelector$ctl00$ctl07$ctl01$ShortList$ctl00$ctl27$ctl00$btn" href="http://www.alssports.com/Footwear/La-Sportiva/4277/Search">La Sportiva</a> and more! </h4>                </div>              <p>At <a href="http://www.alssports.com">AlsSports.com</a> we do not just sell our equipment, we use our equipment   and know and understand the type of quality sports enthusiasts expect   from their own gear because we expect it of ours! So when you're looking   for that perfect fitting <a href="http://www.alssports.com/Climbing-Footwear/Search">Climbing </a>shoe, that <a href="http://www.alssports.com/Basketball-Footwear/Search">Basketball</a> shoe that   provides enough support but is still lightweight, the shoe that will improve your <a href="http://www.alssports.com/Golf-Footwear/Search">Golf</a> game or cleats for<a href="http://www.alssports.com/Baseball-Footwear/Search"> Baseball</a>, <a href="http://www.alssports.com/Football-Footwear/Search">Football </a>or <a href="http://www.alssports.com/Lacrosse-Footwear/Search">Lacrosse</a>, remember that <a href="http://www.alssports.com">AlsSports.com</a> only supplies you with the best. </p></td>          </tr>          <tr align="left">              <td align="left" style="padding: 0px;"><blockquote>&nbsp;</blockquote></td>            </tr>          <tr align="left">            <td align="left" style="padding: 0px;"></td>          </tr>      </tbody>  </table></td>
+
+	</tr>
+
+</table>
+
+        </div>
+
+        
+
+    </div>
+
+
+ <img src="adidas.png"/>
+<img src="brooks.png"/>
+<img src="merrell.png"/>
+<img src="chaco.png"/>
+<img src="asics.png"/>
+
+                </div>
+
+                <div class="clear">
+
+                </div><img src="nav-bottom-bar_02.png"/>
+</div> </div>
+            </div>
+
+                        </div>
+
+                    </div>
+					</html>

@@ -1,0 +1,29 @@
+html
+{
+background: url('woodwall2.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+#maincontainer
+{
+width: 960px;
+background: blue;
+}
+#header
+{
+width: 960px;
+color: green;
+}
+#nav
+{
+width: 960px;
+color: black;
+}
+
+#footer
+{
+color: red;
+width: 100%
+}
